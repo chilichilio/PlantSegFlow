@@ -332,7 +332,274 @@ def refine_depth_keep_with_sam3(
             if use_amp:
                 with torch.autocast(device_type="cuda", dtype=torch.float16):
                     t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
+                    t_sam = _now()
                     masks, _, _ = run_sam3_on_pil(image_pil, processor, prompt=cfg.prompt_text)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
+                    if timing_acc is not None:
+                        timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
                     if timing_acc is not None:
                         timing_acc["stage4_sam3"] = float(timing_acc.get("stage4_sam3", 0.0)) + (_now() - t_sam)
             else:
