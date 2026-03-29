@@ -2,6 +2,10 @@
 Depth-Guided SAM3 Plant Segmentation & Row-Level Tracking
 ## Overview
 PlantSegFlow is a depth-guided zero-shot segmentation and tracking pipeline for extracting plant-level phenotypes from UAV and ground RGB videos.
+
+## Demo on Lantana trial
+![Demo](/final_seg_res_example.gif)
+
 ## Environment Setup (SAM3)
 This project relies on SAM3. 
 Please follow the official installation and environment instructions from the SAM3 repository:
